@@ -13,6 +13,9 @@
             font-family: Arial, sans-serif;
             text-align: center;
             margin-top: 40px;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
         }
         button {
             padding: 15px 30px;
@@ -26,14 +29,30 @@
         button:hover {
             background-color: #2980b9;
         }
+        footer {
+            margin-top: auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #555;
+            font-size: 14px;
+            border-top: 1px solid #ddd;
+        }
+        footer strong {
+            color: #3498db;
+        }
     </style>
 </head>
 <body>
     <h1>🚀 Déployer un contrat de stockage sur la blockchain Base</h1>
     <button id="deployButton">Déployer le Contrat en 1 Clic</button>
 
+    <footer>
+        © 2024 <strong>Berkly</strong> — Tous droits réservés. | Propulsé par la technologie blockchain.
+    </footer>
+
     <script src="app.js"></script>
 </body>
 </html>
+
 
 
