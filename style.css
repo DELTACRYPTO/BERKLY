@@ -1,0 +1,79 @@
+/* Style global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #1e3a8a; /* Fond bleu uni */
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Titre principal */
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #1f2937;
+}
+
+/* Conteneur principal */
+.container {
+    background-color: white;
+    width: 100%;
+    max-width: 500px;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+/* Bouton principal */
+button {
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    background-color: #3b82f6;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 5px 15px rgba(59, 130, 246, 0.3);
+}
+
+button:hover {
+    background-color: #2563eb;
+    transform: translateY(-3px);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+/* Message d'état ou résultat */
+#statusMessage {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #4b5563;
+    word-break: break-word;
+}
+
+/* Pied de page */
+footer {
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #e5e7eb;
+    text-align: center;
+}
